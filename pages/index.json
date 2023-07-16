@@ -1,0 +1,62 @@
+{
+  "navigation": [
+		{
+			"title": "About",
+			"url": "http://www.example.com/about"
+		},
+		{
+			"title": "Projects",
+			"url": "http://www.example.com/portfolio"
+		},
+		{
+			"title": "Contact",
+			"url": "http://www.example.com/about"
+		}
+	],
+  "hero": {
+    "name": "Ashley Huo",
+     "subtitle": "I'm the Unknown Developer."
+  },
+  "about": {
+    "title": "About me",
+    "image": "/placeholder.png",
+    "primary": "Hi, I'm Ashley, a Computer Science and Pure Math student at the University of Waterloo. Prev @Faire.",
+    "secondary": "I am currently in search of internship opportunities for Fall 2023. My passion lies in Backend, Fullstack, Frontend, and infrastructure development, but I am also open to exploring other exciting opportunities. Feel free to reach out to me—I would love to connect and discuss further possibilities!",
+    "githubUrl": "https://github.com/Ashleyhx",
+    "linkedinUrl": "https://www.linkedin.com/in/ashley-huo",
+    "email": "mailto:1ashleyhx@gmail.com"
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Space Invaders",
+        "description": "Developed a visually engaging version of Space Invaders using Kotlin and JavaFX, following the MVC pattern.",
+        "url": "/Projects/SpaceInvader",
+        "github": "http://www.example.com/github",
+        "image": "/spaceInvader.png",
+        "languages": "Kotlin, JavaFX"
+      },
+      {
+				"title": "Discord Bot",
+				"description": "Developed a JavaScript-based Discord Bot using RESTful APIs to play music from URLs and generate summary notifications in Discord based on Notion Database conditions.",
+				"url": "http://www.example.com/project2",
+        "github": "http://www.example.com/github",
+        "linkedin": "https://www.linkedin.com/in/ashley-huo",
+				"image": "/22.png",
+        "languages": "JavaScript, RESTful APIs"
+			}
+      
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "This is where you can describe about your contact. The more you describe about your contact, the more chances you have!",
+    "formId": "your-form-id"
+  },
+  "footer": {
+		"linkedin": "",
+		"twitter": "",
+		"github": ""
+	}
+}
