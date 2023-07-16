@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <div className="footer px-8 py-16 flex justify-center align-center flex-col bg-neutral-800">
-      <div className="mx-auto text-3xl text-neutral-400 mb-8 space-x-10">
+      {/* <div className="mx-auto text-3xl text-neutral-400 mb-8 space-x-10">
         <a rel="noreferrer" href={footer.twitter} target="_blank">
           <i className="devicon-twitter-original"></i>
         </a>
@@ -19,9 +19,9 @@ const Footer = () => {
         <a rel="noreferrer" href={footer.github} target="_blank">
           <i className="devicon-github-original"></i>
         </a>
-      </div>
+      </div> */}
       <span className="text-sm text-center text-neutral-600">
-        © {getYear()} - Template developed by <a href="https://www.dylanarveson.com">Dylan Arveson</a>
+        © {getYear()} - Created by Ashley(Xiao) Huo, based on template by <a href="https://www.dylanarveson.com">Dylan Arveson</a>
       </span>
     </div>
   );

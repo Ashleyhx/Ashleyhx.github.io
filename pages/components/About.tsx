@@ -1,34 +1,35 @@
 import React from "react";
 import config from "../index.json";
 import Image from "next/image";
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const About = () => {
   const about = config.about;
   return (
-    <div id="About" className="px-8 md:px-32 pb-32 content-center bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
-      <h1 className="pt-12 uppercase font-bold text-center text-white text-bold text-4xl">{about.title}</h1>
-      <div className="mt-16 flex flex-col md:flex-row align-center items-center">
-        <div className="w-1/2 flex justify-center content-center">
-          <Image 
-            src={about.image} 
-            alt="about" 
-            className="shadow-lg" 
-            width={300} 
-            height={300}
-            />
-        </div>
-        <div className="pt-8 md:py-0 md:w-1/2 text-white md:ml-4 text-center md:text-left">
-          <div className="about__primary">
+    <div id="About" className="px-8 md:px-32 pb-32 content-center bg-gradient-to-r from-cyan-300 via-purple-500 to-sky-300">
+      <h1 className="pt-20 uppercase font-bold text-center text-white text-bold text-4xl">{about.title}</h1>
+      
+        <div className="pt-12 md:py-0 text-white md:ml-4 text-left">   
+          <div className="about__primary py-4">
             <span>{about.primary}</span>
           </div>
-          <div className="mt-6">
+          <div className="mt-1">
             <span>{about.secondary}</span>
           </div>
-          <div className="mt-6 mx-auto md:mx-0 border-2 border-white py-1 px-2 w-36 text-center font-bold">
-            <a href={'#'} className="about__resume text-white text-l">View Resume</a>
-          </div>
         </div>
-      </div>
+                
+            
+      <div className="flex justify-center text-white mt-10">
+          <a href={about.githubUrl} className="icon-link">
+              <FaGithub size={30} className="mr-4" />
+            </a>
+          <a href={about.linkedinUrl} className="icon-link">
+            <FaLinkedin size={30} className="mr-4" />
+          </a>
+          <a href={about.email} className="icon-link">
+            <FaEnvelope size={30} />
+          </a>
+        </div>
     </div>
   );
 };

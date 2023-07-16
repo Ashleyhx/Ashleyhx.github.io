@@ -10,43 +10,43 @@
 		},
 		{
 			"title": "Contact",
-			"url": "http://www.example.com/contact"
+			"url": "http://www.example.com/about"
 		}
 	],
   "hero": {
-    "name": "Your Name",
-    "subtitle": "I'm the Unknown Developer."
+    "name": "Ashley Huo",
+     "subtitle": "I'm the Unknown Developer."
   },
   "about": {
     "title": "About me",
     "image": "/placeholder.png",
-    "primary": "This is where you can describe about yourself. The more you describe about yourself, the more chances you have!",
-    "secondary": "Extra Information about you! like hobbies and your goals."
+    "primary": "Hi, I'm Ashley, a Computer Science and Pure Math student at the University of Waterloo. Prev @Faire.",
+    "secondary": "I am currently in search of internship opportunities for Fall 2023. My passion lies in Backend, Fullstack, Frontend, and infrastructure development, but I am also open to exploring other exciting opportunities. Feel free to reach out to me—I would love to connect and discuss further possibilities!",
+    "githubUrl": "https://github.com/Ashleyhx",
+    "linkedinUrl": "https://www.linkedin.com/in/ashley-huo",
+    "email": "mailto:1ashleyhx@gmail.com"
   },
   "projects": {
     "title": "Projects",
     "projects": [
       {
-        "title": "Project 1",
-        "description": "Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: complement the information: the skills learned or reinforced in its realization and how you faced it, prove to be proactive in the search for solutions.",
-        "url": "http://www.example.com/project1",
+        "title": "Space Invaders",
+        "description": "Developed a visually engaging version of Space Invaders using Kotlin and JavaFX, following the MVC pattern.",
+        "url": "/Projects/SpaceInvader",
         "github": "http://www.example.com/github",
-        "image": "/placeholder-700x350.png"
+        "image": "/spaceInvader.png",
+        "languages": "Kotlin, JavaFX"
       },
       {
-				"title": "Project 2",
-				"description": "Demonstrate in this description the skills of a programmer: such as having commitment, having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.",
+				"title": "Discord Bot",
+				"description": "Developed a JavaScript-based Discord Bot using RESTful APIs to play music from URLs and generate summary notifications in Discord based on Notion Database conditions.",
 				"url": "http://www.example.com/project2",
         "github": "http://www.example.com/github",
-				"image": "/placeholder-700x350.png"
-			},
-      {
-				"title": "Project 3",
-				"description": "If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.",
-				"url": "http://www.example.com/project3",
-        "github": "http://www.example.com/github",
-				"image": "/placeholder-700x350.png"
+        "linkedin": "https://www.linkedin.com/in/ashley-huo",
+				"image": "/22.png",
+        "languages": "JavaScript, RESTful APIs"
 			}
+      
     ]
   },
   "contact": {
