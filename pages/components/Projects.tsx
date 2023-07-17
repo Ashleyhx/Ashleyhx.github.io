@@ -41,10 +41,11 @@ const Projects = () => {
                 <Image 
                   src={item.image} 
                   alt="project image" 
-                  className="mt-6 md:mt-12 lg:mt-0 w-full h-auto shadow-lg" 
-                  width={700} 
-                  height={400}
-                  layout="responsive"
+                  // className="mt-6 md:mt-12 lg:mt-0 w-full h-auto shadow-lg" 
+                  width={0}
+                  height={0}
+                  sizes = "100vw"
+                  style={{ width: '100%', height: 'auto' }}
                 />
               </div>
             </li>
